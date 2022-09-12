@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg,#f9e7fe, #dafcfc);
+}
+/* TITLE */
+.titleh1{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    border: 1rem;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #F9F5FF;
+    font-size: 3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titleh1:hover{
+    border-radius: 20px;
+    background-color: #585191;
+    color: #EFE6DD;
+    transition: all 0.5s ease;
+}
+
+
+/* H3 */
+.description{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border: 0.5rem;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #E3DBDB;
+    background-color: #587B7F;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.description:hover{
+    background-color: #D1CCDC;
+    color: #587B7F;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+/* DIV BUTTONS */
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D4C2FC;
+    background: #28262C;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5px;
+    border-radius: 7px;
+    
+}
+.buttons:hover{
+    background-color: #3E2F5B;
+    color: #BA5C12;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+#start{
+    min-height: 5vh;
+    font-size: 1rem;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#start:active{
+    background-color: #2E4057;
+}
+
+#pause{
+    min-height: 5vh;
+    font-size: 1rem;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#pause:active{
+    background-color: #2E4057;
+}
+
+#reset{
+    min-height: 5vh;
+    font-size: 1rem;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#reset:active{
+    background-color: #2E4057;
+}
+
+/* TIMER */
+
+div.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 5rem;
+    background-color: #28262C;
+    color: #FFEFD3;
+    border-radius: 7px;
+}
+
+div.time:hover{
+    background-color: #3E2F5B;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+
